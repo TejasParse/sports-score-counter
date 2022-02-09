@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Counter</title>
+</head>
+
+<body>
+    <h1>Sports Score Counter</h1>
+
+    <div id="mainContainer">
+        <div>
+            <h2>Team 1</h2>
+            <div>Score: <span id="score1">0</span></div>
+            <button class="add updateButton" onclick="add1();">Add</button>
+            <button class="delete updateButton" onclick="delete1();">Delete</button>
+        </div>
+        <div>
+            <h2>Team 2</h2>
+            <div>Score: <span id="score2">0</span></div>
+            <button class="add updateButton" onclick="add2();">Add</button>
+            <button class="delete updateButton" onclick="delete2();">Delete</button>
+        </div>
+    </div>
+
+    <div id="extraShit">
+        <input type="number" name="win" id="win" min="0" placeholder="Enter points to win">
+        <label for="points"><input type="checkbox" name="points" id="points"> 2 Points to win </label>
+        
+        <button onclick="start();" id="start">Start</button>
+        <button onclick="reset();" id="reset">Reset</button>
+    </div>
+
+    <div id="annoucement"></div>
+
+    <script src="script1.js"></script>
+
+</body>
+
+</html>

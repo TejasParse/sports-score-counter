@@ -1,0 +1,53 @@
+#mainContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: bisque;
+}
+
+.add {
+    background-color: green;
+}
+
+.delete {
+    background-color: red;
+}
+
+button {
+    color: white;
+}
+
+#start {
+    background-color: green;
+}
+
+#reset {
+    background-color: red;
+}
+
+#extraShit {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+div {
+    padding: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+}
+
+#annoucement {
+    text-align: center;
+}
